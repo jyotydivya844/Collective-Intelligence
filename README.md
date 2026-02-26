@@ -69,6 +69,13 @@ Humans + AI          10.41
 Visual outputs include:
 •	Collective Intelligence Comparison Bar Chart
 •	Trust Evolution Over Time
+## Visualization
+
+### Performance Comparison
+![Performance](images/performance.png)
+
+### Trust Evolution
+![Trust](images/trust.png)
 ________________________________________
 Experimental Insights
 This simulation enables experimentation with:
