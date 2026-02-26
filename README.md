@@ -46,7 +46,7 @@ collective-intelligence-simulator/
 ________________________________________
 Installation
 Clone the repository:
-git clone 
+git clone https://github.com/jyotydivya844/Collective-Intelligence.git
 cd collective-intelligence-simulator
 Install dependencies:
 pip install -r requirements.txt
@@ -107,3 +107,4 @@ This project explores that question through controlled simulation experiments.
 ________________________________________
 Author
 Divya Jyoty
+
