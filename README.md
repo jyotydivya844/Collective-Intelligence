@@ -72,10 +72,10 @@ Visual outputs include:
 ## Visualization
 
 ### Performance Comparison
-![Performance](images/performance.png)
+![Performance](performance.png)
 
 ### Trust Evolution
-![Trust](images/trust.png)
+![Trust](trust.png)
 ________________________________________
 Experimental Insights
 This simulation enables experimentation with:
