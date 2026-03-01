@@ -103,6 +103,106 @@ Future Improvements
 •	More complex decision environments
 •	Performance benchmarking across agent ratios
 ________________________________________
+System Architecture
+
+The simulator follows a modular multi-agent system architecture designed to model dynamic interactions between human agents, AI agents, and a changing decision environment.
+
+                    ┌──────────────────────┐
+                    │   Dynamic Environment │
+                    │  (Changing Probabilities)
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                ┌────────────────────────────┐
+                │     Agent Population       │
+                │                            │
+                │  ┌──────────┐  ┌──────────┐│
+                │  │ Human    │  │   AI     ││
+                │  │ Agents   │  │ Agents   ││
+                │  └──────────┘  └──────────┘│
+                └──────────┬─────────────────┘
+                           │
+                           ▼
+                ┌────────────────────────────┐
+                │  Influence Network Layer   │
+                │                            │
+                │  • AI → Human influence    │
+                │  • Peer → Peer influence   │
+                └──────────┬─────────────────┘
+                           │
+                           ▼
+                ┌────────────────────────────┐
+                │ Collective Decision Engine │
+                │                            │
+                │ • Majority Voting          │
+                │ • Confidence Weighting     │
+                │ • AI Leadership Override   │
+                └──────────┬─────────────────┘
+                           │
+                           ▼
+                ┌────────────────────────────┐
+                │   Metrics & Analytics      │
+                │                            │
+                │ • Reward Performance       │
+                │ • Decision Entropy         │
+                │ • Trust Dynamics           │
+                │ • Minority Correctness     │
+                └──────────┬─────────────────┘
+                           │
+                           ▼
+                ┌────────────────────────────┐
+                │ Visualization & Reporting  │
+                │ • Graphs                   │
+                │ • CSV Logs                 │
+                │ • Experimental Results     │
+                └────────────────────────────┘
+
+Methodology
+Simulation Approach
+The project employs a simulation-based experimental methodology to study emergent collective intelligence in multi-agent systems. Instead of relying on real-world datasets, the system generates synthetic interaction data through repeated stochastic decision environments.
+________________________________________
+Agent Modeling
+Human Agents
+Human agents are modeled using probabilistic decision functions based on risk tolerance parameters. Each agent selects between decision options using stochastic sampling to simulate behavioral variability.
+Human agents adapt their trust in AI dynamically based on reinforcement-style feedback:
+•	Trust increases when AI decisions are successful.
+•	Trust decreases when AI decisions fail.
+This models adaptive learning behavior observed in human-AI collaboration.
+________________________________________
+AI Agents
+The system supports multiple AI strategies:
+•	Rational optimization using expected value theory
+•	Conservative risk-averse strategy
+•	High-risk reward-seeking strategy
+•	Random decision baseline
+•	Adversarial misleading behavior
+This allows comparative analysis of AI influence on collective intelligence.
+________________________________________
+Dynamic Environment Modeling
+The decision environment is non-stationary, with probability distributions changing over time. This simulates real-world uncertainty where decision contexts evolve dynamically.
+Environmental phases introduce variability in reward probabilities, requiring agents to continuously adapt their strategies.
+________________________________________
+Influence Network
+Agent interactions occur through a multi-layer influence network:
+•	AI-to-human influence based on trust levels
+•	Peer-to-peer human influence through majority dynamics
+This models social learning and collective decision formation processes.
+________________________________________
+Collective Decision Aggregation
+Individual agent decisions are aggregated into a single group decision using various mechanisms:
+•	Majority voting
+•	Confidence-weighted aggregation
+•	AI leadership override
+This enables evaluation of group-level intelligence rather than individual performance.
+________________________________________
+Evaluation Metrics
+The system evaluates collective intelligence using multiple quantitative metrics:
+•	Average reward performance
+•	Decision entropy (group uncertainty)
+•	Trust volatility (stability of AI relationships)
+•	Minority correctness rate (wisdom of minority opinions)
+These metrics provide insights into convergence, adaptability, and emergent system behavior.
+________________________________________
 Experiments Conducted
 This project was evaluated through a series of controlled simulation experiments designed to analyze the emergence of collective intelligence in multi-agent systems.
 Experiment 1: Individual vs Collective Decision Performance
