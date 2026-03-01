@@ -103,6 +103,74 @@ Future Improvements
 •	More complex decision environments
 •	Performance benchmarking across agent ratios
 ________________________________________
+Experiments Conducted
+This project was evaluated through a series of controlled simulation experiments designed to analyze the emergence of collective intelligence in multi-agent systems.
+Experiment 1: Individual vs Collective Decision Performance
+Objective:
+Compare decision accuracy between independent human agents, an AI agent, and a collaborative human-AI group.
+Setup:
+•	3 human agents with varying risk tolerance
+•	1 AI agent using rational expected value strategy
+•	1000 simulation rounds
+•	Dynamic environment with changing probabilities
+Result:
+The collaborative human-AI group consistently achieved higher average rewards than humans acting independently.
+________________________________________
+Experiment 2: Impact of AI Strategy Types
+Objective:
+Evaluate how different AI behaviors influence collective intelligence.
+AI Strategies Tested:
+•	Rational (Expected Value Optimization)
+•	Conservative (Always safe choice)
+•	Risky (Always high-reward choice)
+•	Random (Unpredictable decisions)
+•	Adversarial (Intentionally misleading)
+Key Insight:
+Rational AI improved group performance the most, while adversarial AI significantly reduced trust and decision accuracy.
+________________________________________
+Experiment 3: Trust Adaptation Dynamics
+Objective:
+Analyze how human trust in AI evolves over time.
+Mechanism:
+•	Trust increases when AI decisions are rewarded
+•	Trust decreases when AI decisions fail
+Observation:
+Trust stabilizes after initial fluctuations, demonstrating adaptive learning behavior similar to reinforcement learning systems.
+________________________________________
+Experiment 4: Influence of Social Networks
+Objective:
+Study how peer influence affects group decisions.
+Method:
+•	Humans observe majority peer choices
+•	Combined AI + peer influence determines final decisions
+Finding:
+Peer influence accelerates convergence but can also amplify incorrect majority decisions.
+________________________________________
+Experiment 5: Collective Decision Aggregation
+Objective:
+Compare different group decision mechanisms.
+Methods Tested:
+•	Majority voting
+•	Confidence-weighted voting
+•	AI leadership override
+Result:
+Majority voting produced the most stable collective intelligence outcomes.
+________________________________________
+Experiment 6: Emergent Behavior Metrics
+Advanced research metrics were used to analyze system behavior:
+•	Decision Entropy: Measures uncertainty and diversity of group decisions
+•	Trust Volatility: Indicates stability of human-AI relationships
+•	Minority Correctness Rate: Evaluates wisdom of minority opinions
+These metrics revealed patterns of convergence, adaptation, and collective learning.
+________________________________________
+Key Research Findings
+The experiments demonstrate that:
+•	Human-AI collaboration significantly improves decision performance
+•	Adaptive trust mechanisms are critical for effective cooperation
+•	Peer influence plays a major role in collective intelligence formation
+•	AI reliability directly impacts long-term group performance
+•	Minority opinions can occasionally outperform majority consensus
+________________________________________
 Research Motivation
 As AI systems increasingly collaborate with humans in domains such as:
 •	Finance
